@@ -18,7 +18,8 @@ features = ["nightly"]
 targets = ["aarch64-pc-windows-msvc", "i686-pc-windows-msvc", "x86_64-pc-windows-msvc"]
 
 [dependencies.winapi]
-version = "0.3.9"
+git = "https://github.com/Trantect/winapi-rs.git"
+branch = "feature/km"
 features = ["cfg", "evntrace", "in6addr", "inaddr", "minwinbase", "ntsecapi", "windef", "winioctl"]
 
 [features]
